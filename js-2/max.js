@@ -1,8 +1,8 @@
-function max(array1) {
-    if (!array1.length) return undefined;
-    let maxnum = array1[0];
-    for (let i = 1; i < array1.length; i++) {
-        if (maxnum < array1[i]) maxnum = array1[i]
+function max(array) {
+    if (!array.length) return undefined;
+    let maxnum = array[0];
+    for (let i = 1; i < array.length; i++) {
+        if (maxnum < array[i]) maxnum = array[i]
     } return maxnum;
 }
 

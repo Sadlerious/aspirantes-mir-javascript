@@ -1,10 +1,10 @@
-function maxindex(array2) {
-    if (!array2.length) { return -1 };
+function maxindex(array) {
+    if (!array.length) return -1;
     let maxind = 0;
-    let max = array2[0];
-    for (let i = 1; i < array2.length; i++) {
-        if (max < array2[i]) {
-            max = array2[i];
+    let max = array[0];
+    for (let i = 1; i < array.length; i++) {
+        if (max < array[i]) {
+            max = array[i];
             maxind = i;
         }
     } return maxind;
